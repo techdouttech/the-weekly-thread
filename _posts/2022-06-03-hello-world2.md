@@ -4,7 +4,7 @@ title:  "Hello World 2.0!"
 permalink: /helloworld2/
 #permalink: /jekyll2/
 date:   2022-06-03 21:20:00 -0400
-categories: the-weekly-thread
+categories: ["the-weekly-thread", "test"]
 drink: "Tokyo Tea"
 ingredients: ["1/2 ounce gin","1/2 ounce melon liqueur","1/2 ounce rum","1/2 ounce tequila","1/2 ounce triple sec","1/2 ounce vodka","1 ounce sweet and sour mix*","1 splash club soda","Garnish: lemon wheel","Garnish: maraschino cherry"]
 steps: ["Add gin, melon liqueur, rum, tequila, triple sec, vodka and sweet-and-sour mix into a highball glass with ice and stir to combine.", "Top with the club soda.", "Garnish with a lemon wheel and maraschino cherry. "]
