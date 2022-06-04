@@ -1,0 +1,32 @@
+<h2>Drink of the Week: {{include.drink}}</h2>
+
+<table style="table-layout:fixed; width:100%;">
+    <tr style="background-color:#23252a;overflow: hidden;border-collapse: collapse; height: 20px;">
+        <th style="width: 33%;text-align:center;">
+            <i class="fas fa-glass-whiskey"></i> <span style="font-size: 150%;padding-left: 10px;">Ingredients</span>
+        </th>
+        <th style="width: 67%;text-align:center;">
+
+            <i class="fas fa-tasks"></i> <span style="font-size: 150%;padding-left: 10px;">Steps</span>
+
+        </th>
+    </tr>
+    <tr style="background-color:#1f1f22">
+        <td style="vertical-align:top">
+            <ul>
+                {% for i in include.ingredients %}
+                <li>{{i}}</li>
+                {% endfor%}
+            </ul>
+        </td>
+        <td valign="top" style="vertical-align:top">
+            <ol>
+                <div style="word-wrap: break-word; width:100%">
+                    {% for s in include.steps %}
+                    <li>{{s}}</li>
+                    {% endfor %}
+                </div>
+            </ol>
+        </td>
+    </tr>
+</table>
