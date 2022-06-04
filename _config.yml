@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   An excuse to drink with friends.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://aevans1987.github.io/the-weekly-thread/'
+url: 'https://aevans1987.github.io'
 
 github:
   username: github_username             # change to your github username
