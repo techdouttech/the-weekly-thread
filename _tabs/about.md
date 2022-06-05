@@ -8,5 +8,5 @@ order: 4
 {: .prompt-tip }
 
 {% include hosts.html %}
-## Our Spectacular Staff!
+
 {% include staff.html %}
