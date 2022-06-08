@@ -1,4 +1,4 @@
-chi:
+-
   name: Chi
   title: Head Mod
   order: 11
@@ -6,21 +6,21 @@ chi:
   social:
     twitter: rikkuchu7
     twitch: chidorimarame
-duff:
+-
   name: Duff
   title: Whiskey Hunter
   order: 12
   show: true
   social: 
     twitch: thedietduff
-hex:
+-
   name: Hexaine
   title: Wife Mod
   order: 13
   show: true
   social: 
     twitch: ihexia
-zeus:
+-
   name: Hey!Zeus
   title: Artist
   order: 21
@@ -28,15 +28,29 @@ zeus:
   social:
     twitter: PhyreProductio1
     twitch: phyreproductions
-kenzi:
+-
   name: MeowgickleWitch
   title: Event Staff
   order: 22
   show: true
-merch:
+  social:
+    twitch: Meowgiklewitch
+    instagram: Meowgiklewitch
+-
   name: Kayla
   title: Merch Vendor
   order: 23
   show: true
   social:
     website: https://www.sasscassco.com
+    instagram: 
+    facebook: 
+-
+  name: Jacob Evans
+  title: Technomancer
+  order: 92
+  show: true
+  avatar: https://avatars.githubusercontent.com/u/23514631
+  social:
+    github: aevans1987
+    discord: Jacob Evans#4821
