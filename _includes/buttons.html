@@ -1,0 +1,22 @@
+<script>
+    function copyText(discordUserName, copy) {
+        const myText = document.getElementById(copy)
+        /* Copy text into clipboard */
+        navigator.clipboard.writeText
+            (discordUserName);
+        myText.innerHTML = '<span id="jeff-copy" style="background-color: green; border-radius: 10%; padding: 5px;">Copied!</span>'
+        setTimeout(() => { myText.innerHTML = "" }, 2000);
+    }
+</script>
+<style>
+    .button {
+        background-color: rgb(31, 31, 34);
+        transition-duration: 0.4s;
+        overflow: hidden;
+    }
+
+    .button:hover {
+        background-color: rgb(31, 31, 34);
+
+    }
+</style>
