@@ -172,7 +172,7 @@ je:
   icon: fas fa-laptop-code
   avatar: https://avatars.githubusercontent.com/u/23514631
   tagline: Beep Boop. I'm just a random Technomancer.
-  social:
+  social: 
     -
       link: 
       icon: fab fa-twitter
