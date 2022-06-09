@@ -2,7 +2,7 @@ chi:
   name: Chi
   title: Head Mod
   icon: fas fa-gavel
-  avatar: 
+  avatar: https://pbs.twimg.com/profile_images/1205295779968978944/djw2dnkz_400x400.jpg
   tagline: Veniam ipsum deserunt adipisicing tempor esse sint amet culpa excepteur.
   social:
     -
@@ -86,7 +86,7 @@ zeus:
   name: Hey!Zeus
   title: Artist
   icon: fas fa-paint-brush
-  avatar: 
+  avatar: https://pbs.twimg.com/profile_images/1364717735368740865/nZ9P72QK_400x400.jpg
   tagline: Sunt veniam minim Lorem ea cupidatat reprehenderit enim dolore ullamco cupidatat.
   social:
     -
