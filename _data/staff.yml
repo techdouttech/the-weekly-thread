@@ -1,56 +1,69 @@
--
+chi:
   name: Chi
   title: Head Mod
   order: 11
+  avatar: 
+  tagline: Veniam ipsum deserunt adipisicing tempor esse sint amet culpa excepteur.
   show: true
   social:
     twitter: rikkuchu7
     twitch: chidorimarame
--
+duff:
   name: Duff
   title: Whiskey Hunter
   order: 12
+  avatar: 
+  tagline: Voluptate proident do duis nostrud elit.
   show: true
   social: 
     twitch: thedietduff
--
+hex:
   name: Hexaine
   title: Wife Mod
   order: 13
+  avatar: 
+  tagline: Excepteur fugiat reprehenderit exercitation incididunt aute mollit Lorem voluptate.
   show: true
   social: 
     twitch: ihexia
--
+zeus:
   name: Hey!Zeus
   title: Artist
   order: 21
+  avatar: 
+  tagline: Sunt veniam minim Lorem ea cupidatat reprehenderit enim dolore ullamco cupidatat.
   show: true
   social:
     twitter: PhyreProductio1
     twitch: phyreproductions
--
+kenzi:
   name: MeowgickleWitch
   title: Event Staff
   order: 22
+  avatar: 
+  tagline: Fugiat minim qui duis enim est voluptate voluptate aute incididunt consequat dolor elit.
   show: true
   social:
     twitch: Meowgiklewitch
     instagram: Meowgiklewitch
--
+kayla:
   name: Kayla
   title: Merch Vendor
   order: 23
+  avatar: 
+  tagline: Et elit cillum irure reprehenderit veniam ea excepteur laborum fugiat anim ipsum magna ad non.
   show: true
   social:
     website: https://www.sasscassco.com
     instagram: 
     facebook: 
--
+je:
   name: Jacob Evans
   title: Technomancer
   order: 92
-  show: true
   avatar: https://avatars.githubusercontent.com/u/23514631
+  tagline: Beep Boop
+  show: true
   social:
     github: aevans1987
     discord: Jacob Evans#4821
