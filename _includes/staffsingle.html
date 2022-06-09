@@ -6,6 +6,16 @@
     solo, well, 7 staff. Eventually a double will be needed, and that is gonna be a whole different headache.
     avatar, CAPTURE THE AVATAR TO RESTORE YOUR..... oh wait, wrong thing.... Yeah, this just assigns the site avatar if they don't have one defined.
 -->
+<script>
+    function copyText(discordUserName, copy) {
+        const myText = document.getElementById(copy)
+        /* Copy text into clipboard */
+        navigator.clipboard.writeText
+            (discordUserName);
+        myText.innerHTML = '<span style="background-color: green; border-radius: 10%; padding: 5px;">Copied!</span>'
+        setTimeout(() => { myText.innerHTML = "" }, 2000);
+    }
+</script>
 {% if include.greeting %}
 <h2 style="text-align: center;">Our Spectacular Staff!</h2>
 {% endif %}
