@@ -1,10 +1,9 @@
 chi:
   name: Chi
   title: Head Mod
-  order: 11
+  icon: fas fa-gavel
   avatar: 
   tagline: Veniam ipsum deserunt adipisicing tempor esse sint amet culpa excepteur.
-  show: true
   social:
     -
       link: https://twitter.com/Chidorimarame
@@ -30,10 +29,9 @@ chi:
 duff:
   name: Duff
   title: Whiskey Hunter
-  order: 12
+  icon: fas fa-glass-whiskey
   avatar: 
   tagline: Voluptate proident do duis nostrud elit.
-  show: true
   social: 
     -
       link: 
@@ -59,10 +57,9 @@ duff:
 hex:
   name: Hexaine
   title: Wife Mod
-  order: 13
+  icon: fas fa-cat
   avatar: 
   tagline: Excepteur fugiat reprehenderit exercitation incididunt aute mollit Lorem voluptate.
-  show: true
   social: 
     -
       link: 
@@ -88,10 +85,9 @@ hex:
 zeus:
   name: Hey!Zeus
   title: Artist
-  order: 21
+  icon: fas fa-paint-brush
   avatar: 
   tagline: Sunt veniam minim Lorem ea cupidatat reprehenderit enim dolore ullamco cupidatat.
-  show: true
   social:
     -
       link: https://twitter.com/PhyreProductio1
@@ -117,10 +113,9 @@ zeus:
 kenzi:
   name: MeowgickleWitch
   title: Event Staff
-  order: 22
+  icon: fas fa-calendar-alt
   avatar: 
   tagline: Fugiat minim qui duis enim est voluptate voluptate aute incididunt consequat dolor elit.
-  show: true
   social:
     -
       link: 
@@ -146,10 +141,9 @@ kenzi:
 kayla:
   name: Kayla
   title: Merch Vendor
-  order: 23
+  icon: fas fa-tshirt
   avatar: 
   tagline: Et elit cillum irure reprehenderit veniam ea excepteur laborum fugiat anim ipsum magna ad non.
-  show: true
   social:
     -
       link: 
@@ -167,7 +161,7 @@ kayla:
       discord: SingingMomOf3#9697
       icon: fab fa-discord
     -
-      link: https://www.sasscassco.com
+      link: https://www.sasscassco.comtrue
       icon: fas fa-globe
     -
       link: 
@@ -175,10 +169,9 @@ kayla:
 je:
   name: Jacob Evans
   title: Technomancer
-  order: 92
+  icon: fas fa-laptop-code
   avatar: https://avatars.githubusercontent.com/u/23514631
   tagline: Beep Boop. I'm just a random Technomancer.
-  show: true
   social:
     -
       link: 

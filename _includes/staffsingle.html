@@ -22,7 +22,7 @@
     {% assign avatar = site.avatar %}
 {% endif %}
 <tr style="text-align:center;display: table-cell; vertical-align: top;" id="staffBody">
-    <td id="staffHeader"><span style="font-size: 150%;padding-left: 10px;">{{include.user.title}}</span></td>
+    <td id="staffHeader"><span style="font-size: 150%;padding-left: 10px;"><i class="{{include.user.icon}}"></i> {{include.user.title}}</span></td>
     <td style="display: block;"><span style="font-size: 125%;padding-left: 10px;">{{include.user.name}}</span></td>
     <td style="display: block;"> <div id="avatar"><img src="{{ avatar }}" alt="avatar" onerror="this.style.display='none'" style="border-radius: 50%; width: 150px;"> </div></td>
     <td style="display: block; min-height: 7em;">{{include.user.tagline}}</td>
