@@ -6,8 +6,27 @@ chi:
   tagline: Veniam ipsum deserunt adipisicing tempor esse sint amet culpa excepteur.
   show: true
   social:
-    twitter: rikkuchu7
-    twitch: chidorimarame
+    -
+      link: https://twitter.com/Chidorimarame
+      icon: fab fa-twitter
+    -
+      link: 
+      icon: fab fa-facebook
+    -
+      link: 
+      icon: fab fa-instagram
+    - 
+      link: https://twitch.tv/chidorimarame
+      icon: fab fa-twitch
+    -
+      discord: Chidori Marame#2334
+      icon: fab fa-discord
+    -
+      link: 
+      icon: fas fa-globe
+    -
+      link: 
+      icon: fab fa-github
 duff:
   name: Duff
   title: Whiskey Hunter
@@ -16,7 +35,27 @@ duff:
   tagline: Voluptate proident do duis nostrud elit.
   show: true
   social: 
-    twitch: thedietduff
+    -
+      link: 
+      icon: fab fa-twitter
+    -
+      link: 
+      icon: fab fa-facebook
+    -
+      link: 
+      icon: fab fa-instagram
+    - 
+      link: https://twitch.tv/thedietduff
+      icon: fab fa-twitch
+    -
+      discord: TheDietDuff#1584
+      icon: fab fa-discord
+    -
+      link: 
+      icon: fas fa-globe
+    -
+      link: 
+      icon: fab fa-github
 hex:
   name: Hexaine
   title: Wife Mod
@@ -25,7 +64,27 @@ hex:
   tagline: Excepteur fugiat reprehenderit exercitation incididunt aute mollit Lorem voluptate.
   show: true
   social: 
-    twitch: ihexia
+    -
+      link: 
+      icon: fab fa-twitter
+    -
+      link: 
+      icon: fab fa-facebook
+    -
+      link: 
+      icon: fab fa-instagram
+    - 
+      link: https://twitch.tv/ihexia
+      icon: fab fa-twitch
+    -
+      discord: Hexaine#0484
+      icon: fab fa-discord
+    -
+      link: 
+      icon: fas fa-globe
+    -
+      link: 
+      icon: fab fa-github
 zeus:
   name: Hey!Zeus
   title: Artist
@@ -34,8 +93,27 @@ zeus:
   tagline: Sunt veniam minim Lorem ea cupidatat reprehenderit enim dolore ullamco cupidatat.
   show: true
   social:
-    twitter: PhyreProductio1
-    twitch: phyreproductions
+    -
+      link: https://twitter.com/PhyreProductio1
+      icon: fab fa-twitter
+    -
+      link: 
+      icon: fab fa-facebook
+    -
+      link: 
+      icon: fab fa-instagram
+    - 
+      link: https://twitch.tv/phyreproductions
+      icon: fab fa-twitch
+    -
+      discord: Hey!Zeus_Auburn#4202
+      icon: fab fa-discord
+    -
+      link: 
+      icon: fas fa-globe
+    -
+      link: 
+      icon: fab fa-github
 kenzi:
   name: MeowgickleWitch
   title: Event Staff
@@ -44,8 +122,27 @@ kenzi:
   tagline: Fugiat minim qui duis enim est voluptate voluptate aute incididunt consequat dolor elit.
   show: true
   social:
-    twitch: Meowgiklewitch
-    instagram: Meowgiklewitch
+    -
+      link: 
+      icon: fab fa-twitter
+    -
+      link: 
+      icon: fab fa-facebook
+    -
+      link: https://instagram.com/Meowgicklewitch
+      icon: fab fa-instagram
+    - 
+      link: https://twitch.tv/Meowgicklewitch
+      icon: fab fa-twitch
+    -
+      discord: MeowgickleWitch#0043
+      icon: fab fa-discord
+    -
+      link: 
+      icon: fas fa-globe
+    -
+      link: 
+      icon: fab fa-github
 kayla:
   name: Kayla
   title: Merch Vendor
@@ -54,16 +151,53 @@ kayla:
   tagline: Et elit cillum irure reprehenderit veniam ea excepteur laborum fugiat anim ipsum magna ad non.
   show: true
   social:
-    website: https://www.sasscassco.com
-    instagram: 
-    facebook: 
+    -
+      link: 
+      icon: fab fa-twitter
+    -
+      link: 
+      icon: fab fa-facebook
+    -
+      link: 
+      icon: fab fa-instagram
+    - 
+      link: 
+      icon: fab fa-twitch
+    -
+      discord: SingingMomOf3#9697
+      icon: fab fa-discord
+    -
+      link: https://www.sasscassco.com
+      icon: fas fa-globe
+    -
+      link: 
+      icon: fab fa-github
 je:
   name: Jacob Evans
   title: Technomancer
   order: 92
   avatar: https://avatars.githubusercontent.com/u/23514631
-  tagline: Beep Boop
+  tagline: Beep Boop. I'm just a random Technomancer.
   show: true
   social:
-    github: aevans1987
-    discord: Jacob Evans#4821
+    -
+      link: 
+      icon: fab fa-twitter
+    -
+      link: 
+      icon: fab fa-facebook
+    -
+      link: 
+      icon: fab fa-instagram
+    - 
+      link: https://twitch.tv/Jacob_Evans
+      icon: fab fa-twitch
+    -
+      discord: Jacob Evans#4821
+      icon: fab fa-discord
+    -
+      link: 
+      icon: fas fa-globe
+    -
+      link: https://github.com/aevans1987
+      icon: fab fa-github
