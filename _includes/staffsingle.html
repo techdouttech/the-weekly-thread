@@ -1,0 +1,52 @@
+{% if include.greeting %}
+<h2 style="text-align: center;">Our Spectacular Staff!</h2>
+{% endif %}
+{% if include.tableStart or include.solo %}
+<table style="table-layout:fixed; width:100%;" border="0">
+{% endif %}
+{% if include.solo %}
+<tr style="text-align:center;display: table-cell; vertical-align: top;" id="hidden">
+</tr>
+{% endif %}
+{% if include.user.avatar %}
+    {% assign avatar = include.user.avatar %}
+{% else %}
+    {% assign avatar = site.avatar %}
+{% endif %}
+<tr style="text-align:center;display: table-cell; vertical-align: top;" id="staffBody">
+    <td id="staffHeader"><span style="font-size: 150%;padding-left: 10px;">{{include.user.title}}</span></td>
+    <td style="display: block;"><span style="font-size: 125%;padding-left: 10px;">{{include.user.name}}</span></td>
+    <td style="display: block;"> <div id="avatar"><img src="{{ avatar }}" alt="avatar" onerror="this.style.display='none'" style="border-radius: 50%; width: 150px;"> </div></td>
+    <td style="display: block; min-height: 7em;">{{include.user.tagline}}</td>
+    <td style="display: block;">
+        {% for social in include.user.social %}
+            {% if social.link %}
+                <a href="{{social.link}}" style="border: none;" target="_blank">
+                    <span class="fa-stack fa-lg" style="font-size: 1em;">
+                        <i class="fas fa-circle fa-stack-2x" style="color: rgb(47, 49, 54); vertical-align: middle;"></i>
+                        <i class="{{social.icon}} fa-stack-1x fa-inverse"
+                            style="color: rgb(110,110,111);vertical-align: middle;"></i>
+                    </span>
+                </a>
+            {% elsif social.discord %}
+            <button onclick="copyText('{{social.discord}}', '{{social.discord}}-copy')" style="border: none; border-radius: 50%;" class="button">
+                <span class="fa-stack fa-lg" style="font-size: 1em;">
+                    <i class="fas fa-circle fa-stack-2x" style="color: rgb(47, 49, 54); vertical-align: middle;"></i>
+                    <i class="fab fa-discord fa-stack-1x fa-inverse"
+                        style="color: rgb(110,110,111);vertical-align: middle;"></i>
+                </span>
+            </button>
+            {% endif %}
+        {% endfor %}
+    </td>
+    <td style="height: 35px; vertical-align:top; text-align: center; display: block; background-color: #1B1B1E;" >
+        <div id="{{include.user.social[4].discord}}-copy"></div>
+    </td>
+</tr>
+{% if include.solo %}
+<tr style="text-align:center;display: table-cell; vertical-align: top;" id="hidden">
+</tr>
+{% endif %}
+{% if include.tableEnd or include.solo %}
+    </table>
+{% endif %}

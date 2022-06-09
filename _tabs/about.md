@@ -9,4 +9,10 @@ order: 4
 
 {% include hosts.html %}
 
-{% include staff.html %}
+{% include staffsingle.html user=site.data.staff.chi tableStart=true greeting=true %}
+{% include staffsingle.html user=site.data.staff.duff %}
+{% include staffsingle.html user=site.data.staff.hex tableEnd=true %}
+{% include staffsingle.html user=site.data.staff.zeus tableStart=true %}
+{% include staffsingle.html user=site.data.staff.kenzi %}
+{% include staffsingle.html user=site.data.staff.kayla tableEnd=true %}
+{% include staffsingle.html user=site.data.staff.je solo=true %}
