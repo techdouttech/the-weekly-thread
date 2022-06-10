@@ -142,8 +142,8 @@ kayla:
   name: Kayla
   title: Merch Vendor
   icon: fas fa-tshirt
-  avatar: 
-  tagline: Et elit cillum irure reprehenderit veniam ea excepteur laborum fugiat anim ipsum magna ad non.
+  avatar: /assets/avatars/kayla.png
+  tagline: Geeky & Sarcastic Mama<br>Lover of creating things.
   social:
     -
       link: 
