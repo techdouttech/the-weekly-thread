@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://aevans1987.github.io/the-weekly-thread/sitemap.xml
